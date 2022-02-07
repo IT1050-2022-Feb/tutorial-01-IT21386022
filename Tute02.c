@@ -27,7 +27,7 @@ int main() {
          amount=distance*50;
   else
          amount=30*50+(distance-30)*40;
-  printf("Total amount is:",amount);
+  printf("Total amount is:%.2f",amount);
   
   return 0;
 }
