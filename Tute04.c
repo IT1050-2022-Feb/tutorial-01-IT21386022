@@ -5,6 +5,10 @@ Implement the three functions minimum(), maximum() and multiply() below the main
 Do not change the code given in the main() function when you are implementing your solution.*/
 
 #include <stdio.h>
+/* Function declarations */
+int maximum(int no1, int no2);
+int minimum(int no1, int no2);
+int multiply(int no1, int no2);
 
 int main() {
    int no1, no2;
@@ -16,4 +20,26 @@ int main() {
    printf("%d ", maximum(no1, no2));
    printf("%d ", multiply(no1, no2));
    return 0;
+}
+/**
+ * Find maximum between two numbers.
+ */
+int maximum(int num1, int num2)
+{
+    return (no1 > no2 ) ? no1 : no2;
+}
+
+/**
+ * Find minimum between two numbers.
+ */
+int minimum(int no1, int no2) 
+{
+    return (no1 > no2 ) ? no2 : no1;
+}
+/**
+ * Find multiply between two numbers.
+ */
+int multiply(int no1, int no2)
+{
+   return no1*no2;
 }
