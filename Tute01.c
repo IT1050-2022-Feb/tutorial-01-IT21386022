@@ -13,7 +13,7 @@ int main() {
    scanf("%d",&mark2);
    sum=mark1+mark2;
    average=sum/2;
-   printf("Average of the two marks :",average);
+   printf("Average of the two marks :%.2f",average);
   
   return 0;
 }
