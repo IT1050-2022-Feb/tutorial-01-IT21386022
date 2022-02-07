@@ -24,7 +24,7 @@ int main() {
 /**
  * Find maximum between two numbers.
  */
-int maximum(int num1, int num2)
+int maximum(int no1, int no2)
 {
     return (no1 > no2 ) ? no1 : no2;
 }
